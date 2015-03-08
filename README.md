@@ -50,7 +50,7 @@ List<RemoteTileMapParameter> remoteTileMapParameters()方法，用户需要提供第三方在
 </table>
 
 注意：其中分辨率集合和比例尺集合，用户可任意设置一个，但建议用户都设置，如果只设置其中一个，默认通过TileTool类中提供的转换方法resolutionToScale或scaleToResolution转换得到另一个参数。除此以外的参数均为必要参数，用户都需要设置。
-SuperMap默认的坐标系为X轴正方向向右,Y轴正方向向下。如果第三方在线地图的默认坐标系和supermap默认的坐标系不同的话,那么瓦片行列号可能涉及到转换。详情请参见[部分地图参数介绍](https://github.com/cxk910204/test3/blob/master/%E9%83%A8%E5%88%86%E7%AC%AC%E4%B8%89%E6%96%B9%E5%9C%B0%E5%9B%BE%E6%9C%8D%E5%8A%A1%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.docx) 和扩展示例。
+SuperMap默认的坐标系为X轴正方向向右,Y轴正方向向下。如果第三方在线地图的默认坐标系和supermap默认的坐标系不同的话,那么瓦片行列号可能涉及到转换。详情请参见[部分第三方地图服务参数介绍](https://github.com/cxk910204/test3/blob/master/%E9%83%A8%E5%88%86%E7%AC%AC%E4%B8%89%E6%96%B9%E5%9C%B0%E5%9B%BE%E6%9C%8D%E5%8A%A1%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.docx) 和扩展示例。
 
 ### 三、配置部署
 
