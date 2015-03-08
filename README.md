@@ -8,11 +8,11 @@ iServer_RemoteTileProviders是帮助用户基于iServer扩展开发对接第三方在线地图服务提
 需要实现以下方法：
 List<RemoteTileMapParameter> remoteTileMapParameters()方法，用户需要提供第三方在线地图的地图参数，包括以下几个：
 
-<table cellspacing="0px" width="70%" align="center" border="2">
+<table cellspacing="0px" align="center" border="2">
 	<col style="width: 20%;">
 	<col style="width: 20%;">
 	<col style="width: 60%;">
-	<tr  bgcolor="gray">
+	<tr>
 		<td><b>名称</b></td>
 		<td><b>类型</b></td>
 		<td><b>含义</b></td>
