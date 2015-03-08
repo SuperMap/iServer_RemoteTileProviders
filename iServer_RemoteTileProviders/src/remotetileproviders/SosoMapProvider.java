@@ -7,22 +7,6 @@ import com.supermap.services.components.commontypes.Point2D;
 import com.supermap.services.components.commontypes.Rectangle2D;
 import com.supermap.services.util.PrjCoordSysConversionTool;
 
-/**
- * <p>
- * Soso地图服务提供者
- * </p>
- * <table width="800">
- * <th>地图相关参数</th>
- *  <tr><td width="100">级别</td><td>4-18级</td></tr>
- *  <tr><td width="100">投影</td><td>WGS84 Web Mercator</td></tr>
- *  <tr><td width="100">切片原点</td><td>-20037508.342789244, 20037508.342789091</td></tr>
- *  <tr><td width="100">全图范围</td><td>-20037508.342789244, -20037508.34278914, 20037508.342789244, 20037508.342789091</td></tr>
- *  <tr><td width="100">比例尺</td><td>2.7042617145642484E-8, 5.408523429128497E-8, 1.0817046858256994E-7, 2.1634093716513987E-7, 4.3268187433027975E-7,
-                8.653637486605595E-7, 1.730727497321119E-6, 3.461454994642238E-6, 6.922909989284476E-6, 1.3845819978568952E-5, 2.7691639957137904E-5,
-                5.538327991427581E-5, 1.1076655982855162E-4, 2.2153311965710323E-4, 4.4306623931420646E-4</td></tr>
-    <tr><td width="100">X轴</td><td>正方向向右</td></tr>
-    <tr><td width="100">Y轴</td><td>正方向向上</td></tr>
- */
 public class SosoMapProvider extends ProviderBase {
 
     /**
