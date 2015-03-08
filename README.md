@@ -5,8 +5,7 @@ iServer_RemoteTileProviders是帮助用户基于iServer扩展开发对接第三方在线地图服务提
 ### 二、扩展开发
 
 用户可以继承[ProviderBase](https://github.com/cxk910204/test3/blob/master/iServer_RemoteTileProviders/src/remotetileproviders/ProviderBase.java) 抽象类，来聚合第三方的在线地图服务。
-需要实现以下方法：
-List<RemoteTileMapParameter> remoteTileMapParameters()方法，用户需要提供第三方在线地图的地图参数，包括以下几个：
+需要实现List<RemoteTileMapParameter> remoteTileMapParameters()方法，用户需要提供第三方在线地图的地图参数，包括以下几个：
 
 <table cellspacing="0px" align="center">
 	<col style="width: 20%;">
@@ -41,6 +40,11 @@ List<RemoteTileMapParameter> remoteTileMapParameters()方法，用户需要提供第三方在
 		<td>scales</td>
 		<td>double[]</td>
 		<td>地图比例尺集合。</td>
+	</tr>
+	<tr>
+		<td>resolutions</td>
+		<td>double[]</td>
+		<td>地图分辨率集合。</td>
 	</tr>
 	<tr>
 		<td>remoteTileUrl</td>
