@@ -22,7 +22,7 @@ import com.supermap.services.util.TileTool;
 
 /**
  * <p>
- * 第三方在线地图服务提供者基类。
+ * 在线瓦片地图服务提供者基类。
  * </p>
  */
 public abstract class ProviderBase extends RemoteTileProviderBase {
@@ -30,9 +30,10 @@ public abstract class ProviderBase extends RemoteTileProviderBase {
 
     /**
      * <p>
-     * 在线地图参数集合。
+     * 在线瓦片地图参数集合。
      * </p>
-     * @return 在线地图参数集合。
+     * 
+     * @return 在线瓦片地图参数集合。
      */
     abstract List<RemoteTileMapParameter> remoteTileMapParameters();
 
@@ -40,7 +41,9 @@ public abstract class ProviderBase extends RemoteTileProviderBase {
      * <p>
      * 获取瓦片url地址。
      * </p>
-     * @param tileImagePrameter 瓦片参数。
+     * 
+     * @param tileImagePrameter
+     *            瓦片参数。
      * @return 瓦片url地址。
      */
     @Override
@@ -52,7 +55,9 @@ public abstract class ProviderBase extends RemoteTileProviderBase {
      * <p>
      * 获取在线地图支持的分辨率数组。
      * </p>
-     * @param mapName地图名。
+     * 
+     * @param mapName地图名
+     *            。
      * @return 分辨率数组。
      */
     @Override
@@ -185,6 +190,7 @@ public abstract class ProviderBase extends RemoteTileProviderBase {
          * <p>
          * 复制图层。
          * </p>
+         * 
          * @return Layer对象
          */
         public Layer copy() {

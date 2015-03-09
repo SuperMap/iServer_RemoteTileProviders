@@ -11,15 +11,15 @@ public class SosoMapProvider extends ProviderBase {
 
     /**
      * <p>
-     * 获取地图参数对象集合。
+     * 获取瓦片地图参数对象集合。
      * </p>
-     * @return 地图参数对象集合。
+     * @return 瓦片地图参数对象集合。
      */
     @Override
     public List<RemoteTileMapParameter> remoteTileMapParameters() {
         /**
-         * 构造一个地图参数对象，设置地图参数
-         * 需要设置地图参数包括有：地图名mapName、地图切图原点origin、地图全图范围bounds、地图的投影prjCoordSys、地图比例尺集合、地图分辨率集合、构造在线瓦片的url地址
+         * 构造一个瓦片地图参数对象，设置地图参数
+         * 需要设置瓦片地图参数包括有：地图名mapName、地图切图原点origin、地图全图范围bounds、地图的投影prjCoordSys、地图比例尺集合、地图分辨率集合、构造在线瓦片的url地址
          */
         final RemoteTileMapParameter mapParameter = new RemoteTileMapParameter();
         mapParameter.mapName = "SosoMap";
@@ -47,8 +47,8 @@ public class SosoMapProvider extends ProviderBase {
                 // Rectangle2D tileBounds = tileParameter.viewBounds();
 
                 /**
-                 * supermap默认的坐标系为X轴正方向向右,Y轴正方向向下。如果第三方在线地图的默认坐标系和supermap默认的坐标系不同的话,那么瓦片行列号可能涉及到转换。
-                 * 默认的地图显示等级是从0开始,如果第三方地图显示等级为第4级开始,那么应该在0的基础上加4。
+                 * supermap默认的瓦片轴方向为右下。如果在线地图的瓦片轴方向和supermap的不同,那么瓦片行列号可能涉及到转换。
+                 * 默认的地图显示等级是从0开始,如果第三方地图显示等级为第i级,那么应该在0的基础上加i。
                  */
                 int level = ArrayUtils.indexOf(mapParameter.scales, tileParameter.mapParameter.scale, 1E-9) + 4;
                 String sosoUrl = String.format("http://rt2.map.gtimg.com/realtimerender?z=%d&x=%d&y=%d&type=vector&style=0", level, tileParameter.x,
