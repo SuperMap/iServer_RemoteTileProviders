@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Ò»¡¢¼ò½é
 
 »ùÓÚiServer£¬Ìá¹©¾ÛºÏ¸÷ÀàÔÚÏßÍßÆ¬µØÍ¼·þÎñµÄÊ¾Àý¡£Èç¹È¸èµØÍ¼¡¢ËÑËÑµØÍ¼¡¢ÌìµØÍ¼µÈ¡£
@@ -87,7 +86,3 @@
 ![original_THmC_4b6f000174941190](images/GoogleMap.png)
 ![original_THmC_4b6f000174941190](images/ChineseAnnotation.png)
 ![original_THmC_4b6f000174941190](images/EnglishAnnotation.png)
-=======
-# iServer_RemoteTileProviders
-åŸºäºŽiServerï¼Œæä¾›èšåˆå„ç±»åœ¨çº¿ç“¦ç‰‡åœ°å›¾æœåŠ¡çš„ç¤ºä¾‹ã€‚å¦‚è°·æ­Œåœ°å›¾ã€æœæœåœ°å›¾ã€å¤©åœ°å›¾ç­‰ã€‚
->>>>>>> remotes/iServer_RemoteTileProviders/master
