@@ -77,12 +77,12 @@
 
 1.[谷歌瓦片地图服务示例](https://github.com/cxk910204/iServer_RemoteTileProviders/blob/master/remotetileproviders/GoogleMapsMapProvider.java)
 
-![original_THmC_4b6f000174941190](images/GoogleMap.jpg)
+![original_THmC_4b6f000174941190](images/GoogleMap.png)
 
 2.[搜搜瓦片地图服务示例](https://github.com/cxk910204/iServer_RemoteTileProviders/blob/master/remotetileproviders/SosoMapProvider.java)
-![original_THmC_4b6f000174941190](images/SosoMap.jpg)
+![original_THmC_4b6f000174941190](images/SosoMap.png)
 
 3.[天地图瓦片地图服务示例](https://github.com/cxk910204/iServer_RemoteTileProviders/blob/master/remotetileproviders/TiandituMapProvider.java)
-![original_THmC_4b6f000174941190](images/GoogleMap.jpg)
-![original_THmC_4b6f000174941190](images/ChineseAnnotation.jpg)
-![original_THmC_4b6f000174941190](images/EnglishAnnotation.jpg)
+![original_THmC_4b6f000174941190](images/GoogleMap.png)
+![original_THmC_4b6f000174941190](images/ChineseAnnotation.png)
+![original_THmC_4b6f000174941190](images/EnglishAnnotation.png)
