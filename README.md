@@ -5,7 +5,7 @@
 ### 二、扩展开发
 
 示例都是基于[ProviderBase](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/remotetileproviders/ProviderBase.java) 抽象类实现的。需要指定一组瓦片地图参数，具体参数说明如下：
-需要实现List<RemoteTileMapParameter> remoteTileMapParameters()方法，用户需要提供第三方在线地图的地图参数，包括以下几个：
+需要实现remoteTileMapParameters()方法，用户需要提供第三方在线地图的地图参数，包括以下几个：
 
 <table cellspacing="0px" align="center">
 	<col style="width: 15%;">
