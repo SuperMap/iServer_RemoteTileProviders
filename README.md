@@ -83,12 +83,13 @@
 ![original_THmC_4b6f000174941190](images/SosoMap.png)
 
 3.[天地图瓦片地图服务示例](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/remotetileproviders/TiandituMapProvider.java)
-![original_THmC_4b6f000174941190](images/GoogleMap.png)
+![original_THmC_4b6f000174941190](images/BaseMap.png)
 ![original_THmC_4b6f000174941190](images/ChineseAnnotation.png)
 ![original_THmC_4b6f000174941190](images/EnglishAnnotation.png)
 
 ### 五、在Eclipse中使用工程
 
 1.导入Java项目：File→Import→选择General下的Existing Projects into Workspace→选择项目文件夹→Finish完成导入。
+<br>
 2.添加项目依赖的jar包：在项目名称点击右键→Build Path→Configure Build Path→在Order and Export选项下勾选JRE System Library→在Libraries选项下点击Add External JARs按钮选择%SuperMapiServer_HOME%/webapps/iserver/WEB-INF/lib/下的所有jar包。
 
