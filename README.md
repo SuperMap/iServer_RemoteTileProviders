@@ -71,7 +71,7 @@
 
 ### 四、扩展示例
 
-1.[谷歌地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/GoogleMapsMapProvider.java)
+1.[谷歌地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/GoogleMapsMapProvider.java)<br>
 ![original_THmC_4b6f000174941190](images/GoogleMap.png)
 
 2.[搜搜地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/SosoMapProvider.java) <br>
@@ -80,7 +80,6 @@
 3.[天地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/TiandituMapProvider.java)<br>
 ![original_THmC_4b6f000174941190](images/BaseMap.png)
 ![original_THmC_4b6f000174941190](images/ChineseAnnotation.png)
-![original_THmC_4b6f000174941190](images/EnglishAnnotation.png)
 
 ### 五、导入为Eclipse工程
 
