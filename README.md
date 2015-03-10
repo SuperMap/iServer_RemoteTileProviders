@@ -1,10 +1,10 @@
-### Ò»¡¢¼ò½é
+### ä¸€ã€ç®€ä»‹
 
-»ùÓÚiServer£¬Ìá¹©¾ÛºÏ¸÷ÀàÔÚÏßÍßÆ¬µØÍ¼·şÎñµÄÊ¾Àı¡£Èç¹È¸èµØÍ¼¡¢ËÑËÑµØÍ¼¡¢ÌìµØÍ¼µÈ¡£
+åŸºäºiServerï¼Œæä¾›èšåˆå„ç±»åœ¨çº¿ç“¦ç‰‡åœ°å›¾æœåŠ¡çš„ç¤ºä¾‹ã€‚å¦‚è°·æ­Œåœ°å›¾ã€æœæœåœ°å›¾ã€å¤©åœ°å›¾ç­‰ã€‚
 
-### ¶ş¡¢À©Õ¹¿ª·¢
+### äºŒã€æ‰©å±•å¼€å‘
 
-Ê¾Àı¶¼ÊÇ»ùÓÚ[ProviderBase](https://github.com/yjjqrqqq/iServer_RemoteTileProviders/blob/master/remotetileproviders/ProviderBase.java) ³éÏóÀàÊµÏÖµÄ¡£ĞèÒªÖ¸¶¨Ò»×éÍßÆ¬µØÍ¼²ÎÊı£¬¾ßÌå²ÎÊıËµÃ÷ÈçÏÂ£º
+ç¤ºä¾‹éƒ½æ˜¯åŸºäº[ProviderBase](https://github.com/yjjqrqqq/iServer_RemoteTileProviders/blob/master/remotetileproviders/ProviderBase.java) æŠ½è±¡ç±»å®ç°çš„ã€‚éœ€è¦æŒ‡å®šä¸€ç»„ç“¦ç‰‡åœ°å›¾å‚æ•°ï¼Œå…·ä½“å‚æ•°è¯´æ˜å¦‚ä¸‹ï¼š
 
 <table cellspacing="0px" align="center">
 	<col style="width: 15%;">
@@ -12,82 +12,81 @@
 	<col style="width: 15%;">
 	<col style="width: 55%;">
 	<tr>
-		<td><b>Ãû³Æ</b></td>
-		<td><b>ÀàĞÍ</b></td>
-		<td><b>º¬Òå</b></td>
-		<td><b>ÊÇ·ñ±ØÒª</b></td>
+		<td><b>åç§°</b></td>
+		<td><b>ç±»å‹</b></td>
+		<td><b>å«ä¹‰</b></td>
+		<td><b>æ˜¯å¦å¿…è¦</b></td>
 	</tr>
 	<tr>
 		<td>mapName</td>
 		<td>String</td>
-		<td>µØÍ¼Ãû¡£</td>
-		<td>ÊÇ</td>
+		<td>åœ°å›¾åã€‚</td>
+		<td>æ˜¯</td>
 	</tr>
 	<tr>
 		<td>origin</td>
 		<td>Point2D</td>
-		<td>ÇĞÆ¬Ô­µã¡£</td>
-		<td>ÊÇ</td>
+		<td>åˆ‡ç‰‡åŸç‚¹ã€‚</td>
+		<td>æ˜¯</td>
 	</tr>
 	<tr>
 		<td>bounds</td>
 		<td>Rectangle2D</td>
-		<td>È«Í¼·¶Î§¡£</td>
-		<td>ÊÇ</td>
+		<td>å…¨å›¾èŒƒå›´ã€‚</td>
+		<td>æ˜¯</td>
 	</tr>
 	<tr>
 		<td>prjCoordSys</td>
 		<td>PrjCoordSys</td>
-		<td>µØÍ¼Í¶Ó°¡£</td>
-		<td>ÊÇ</td>
+		<td>åœ°å›¾æŠ•å½±ã€‚</td>
+		<td>æ˜¯</td>
 	</tr>
 	<tr>
 		<td>scales</td>
 		<td>double[]</td>
-		<td>µØÍ¼±ÈÀı³ß¼¯ºÏ¡£</td>
-		<td>·ñ</td>
+		<td>åœ°å›¾æ¯”ä¾‹å°ºé›†åˆã€‚</td>
+		<td>å¦</td>
 	</tr>
 	<tr>
 		<td>resolutions</td>
 		<td>double[]</td>
-		<td>µØÍ¼·Ö±æÂÊ¼¯ºÏ¡£</td>
-		<td>·ñ</td>
+		<td>åœ°å›¾åˆ†è¾¨ç‡é›†åˆã€‚</td>
+		<td>å¦</td>
 	</tr>
 	<tr>
 		<td>remoteTileUrl</td>
 		<td>RemoteTileUrl</td>
-		<td>Ìá¹©¹¹ÔìÇëÇóÍßÆ¬µÄURLµÄ·½·¨¡£</td>
-		<td>ÊÇ</td>
+		<td>æä¾›æ„é€ è¯·æ±‚ç“¦ç‰‡çš„URLçš„æ–¹æ³•ã€‚</td>
+		<td>æ˜¯</td>
 	</tr>
 </table>
 
-×¢Òâ£º
-<br>1.ÆäÖĞ·Ö±æÂÊ¼¯ºÏºÍ±ÈÀı³ß¼¯ºÏ£¬ÖÁÉÙÉèÖÃÒ»¸ö£¬µ«½¨Òé¶¼ÉèÖÃ¡£</br>
-<br>2.SuperMapÄ¬ÈÏÍßÆ¬Öá·½ÏòÎªÓÒÏÂ¡£Èç¹ûÔÚÏßµØÍ¼µÄÍßÆ¬Öá·½ÏòºÍsupermapµÄ²»Í¬µÄ»°,ÄÇÃ´ÍßÆ¬ĞĞÁĞºÅ¿ÉÄÜÉæ¼°µ½×ª»»¡£ÏêÇéÇë²Î¼û[²¿·ÖÍßÆ¬µØÍ¼·şÎñ²ÎÊı½éÉÜ](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/%E9%83%A8%E5%88%86%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BE%E6%9C%8D%E5%8A%A1%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.docx) ºÍÀ©Õ¹Ê¾Àı¡£</br>
+æ³¨æ„ï¼š
+<br>1.å…¶ä¸­åˆ†è¾¨ç‡é›†åˆå’Œæ¯”ä¾‹å°ºé›†åˆï¼Œè‡³å°‘è®¾ç½®ä¸€ä¸ªï¼Œä½†å»ºè®®éƒ½è®¾ç½®ã€‚</br>
+<br>2.SuperMapé»˜è®¤ç“¦ç‰‡è½´æ–¹å‘ä¸ºå³ä¸‹ã€‚å¦‚æœåœ¨çº¿åœ°å›¾çš„ç“¦ç‰‡è½´æ–¹å‘å’Œsupermapçš„ä¸åŒçš„è¯,é‚£ä¹ˆç“¦ç‰‡è¡Œåˆ—å·å¯èƒ½æ¶‰åŠåˆ°è½¬æ¢ã€‚è¯¦æƒ…è¯·å‚è§[éƒ¨åˆ†ç“¦ç‰‡åœ°å›¾æœåŠ¡å‚æ•°ä»‹ç»](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/%E9%83%A8%E5%88%86%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BE%E6%9C%8D%E5%8A%A1%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.docx) å’Œæ‰©å±•ç¤ºä¾‹ã€‚</br>
 
 
-### Èı¡¢ÅäÖÃ²¿Êğ
+### ä¸‰ã€é…ç½®éƒ¨ç½²
 
-Ïê¼û[ÅäÖÃºÍ²¿Êğ](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/%E9%85%8D%E7%BD%AE%E5%92%8C%E9%83%A8%E7%BD%B2.docx) ¡£
+è¯¦è§[é…ç½®å’Œéƒ¨ç½²](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/%E9%85%8D%E7%BD%AE%E5%92%8C%E9%83%A8%E7%BD%B2.docx) ã€‚
 
-### ËÄ¡¢À©Õ¹Ê¾Àı
+### å››ã€æ‰©å±•ç¤ºä¾‹
 
-Ê¾ÀıÈçÏÂ£º
+ç¤ºä¾‹å¦‚ä¸‹ï¼š
 
-1.[¹È¸èµØÍ¼](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/GoogleMapsMapProvider.java)
+1.[è°·æ­Œåœ°å›¾](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/GoogleMapsMapProvider.java)
 
 ![original_THmC_4b6f000174941190](images/GoogleMap.png)
 
-2.[ËÑËÑµØÍ¼](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/SosoMapProvider.java)
+2.[æœæœåœ°å›¾](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/SosoMapProvider.java) <br>
 ![original_THmC_4b6f000174941190](images/SosoMap.png)
 
-3.[ÌìµØÍ¼](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/TiandituMapProvider.java)
-![original_THmC_4b6f000174941190](images/GoogleMap.png)
+3.[å¤©åœ°å›¾](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/TiandituMapProvider.java)<br>
 ![original_THmC_4b6f000174941190](images/ChineseAnnotation.png)
 ![original_THmC_4b6f000174941190](images/EnglishAnnotation.png)
 
-### Îå¡¢µ¼ÈëÎªEclipse¹¤³Ì
+### äº”ã€å¯¼å…¥ä¸ºEclipseå·¥ç¨‹
 
-1.µ¼ÈëJavaÏîÄ¿£ºFile¡úImport¡úÑ¡ÔñGeneralÏÂµÄExisting Projects into Workspace¡úÑ¡ÔñÏîÄ¿ÎÄ¼ş¼Ğ¡úFinishÍê³Éµ¼Èë¡£<br>
-2.Ìí¼ÓÏîÄ¿ÒÀÀµµÄjar°ü£ºÔÚÏîÄ¿Ãû³Æµã»÷ÓÒ¼ü¡úBuild Path¡úConfigure Build Path¡úÔÚOrder and ExportÑ¡ÏîÏÂ¹´Ñ¡JRE System Library¡úÔÚLibrariesÑ¡ÏîÏÂµã»÷Add External JARs°´Å¥Ñ¡Ôñ%SuperMapiServer_HOME%/webapps/iserver/WEB-INF/lib/ÏÂµÄËùÓĞjar°ü¡£
+1.å¯¼å…¥Javaé¡¹ç›®ï¼šFileâ†’Importâ†’é€‰æ‹©Generalä¸‹çš„Existing Projects into Workspaceâ†’é€‰æ‹©é¡¹ç›®æ–‡ä»¶å¤¹â†’Finishå®Œæˆå¯¼å…¥ã€‚<br>
+2.æ·»åŠ é¡¹ç›®ä¾èµ–çš„jaråŒ…ï¼šåœ¨é¡¹ç›®åç§°ç‚¹å‡»å³é”®â†’Build Pathâ†’Configure Build Pathâ†’åœ¨Order and Exporté€‰é¡¹ä¸‹å‹¾é€‰JRE System Libraryâ†’åœ¨Librariesé€‰é¡¹ä¸‹ç‚¹å‡»Add External JARsæŒ‰é’®é€‰æ‹©%SuperMapiServer_HOME%/webapps/iserver/WEB-INF/lib/ä¸‹çš„æ‰€æœ‰jaråŒ…ã€‚
 
