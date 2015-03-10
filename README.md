@@ -72,7 +72,6 @@
 
 ### 四、扩展示例
 
-示例如下：
 
 1.[谷歌地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/GoogleMapsMapProvider.java)
 
