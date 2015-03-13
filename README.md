@@ -81,7 +81,7 @@
 
 3.[天地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/TiandituMapProvider.java)<br>
 ![original_THmC_4b6f000174941190](images/BaseMap.png)
-<br>注：SuperMap iServer已经内置了天地图提供者，该救命主要是为了说明如何扩展WGS84投影的在线地图服务。
+<br>注：SuperMap iServer已经内置了天地图提供者，该示例主要是为了说明如何扩展WGS84投影的在线地图服务。
 
 ### 六、导入为Eclipse工程
 
