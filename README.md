@@ -68,8 +68,10 @@
 ### 三、配置部署
 
 详见[配置和部署](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/%E9%85%8D%E7%BD%AE%E5%92%8C%E9%83%A8%E7%BD%B2.docx) 。
+### 四、许可授权
+详见“LICENSE.txt”。
 
-### 四、扩展示例
+### 五、扩展示例
 
 1.[谷歌地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/GoogleMapsMapProvider.java)<br>
 ![original_THmC_4b6f000174941190](images/GoogleMap.png)
@@ -79,9 +81,9 @@
 
 3.[天地图](https://github.com/SuperMap/iServer_RemoteTileProviders/blob/master/src/remotetileproviders/TiandituMapProvider.java)<br>
 ![original_THmC_4b6f000174941190](images/BaseMap.png)
-![original_THmC_4b6f000174941190](images/ChineseAnnotation.png)
+注：SuperMap iServer已经内置了天地图提供者，该救命主要是为了说明如何扩展WGS84投影的在线地图服务。
 
-### 五、导入为Eclipse工程
+### 六、导入为Eclipse工程
 
 1.导入Java项目：File→Import→选择General下的Existing Projects into Workspace→选择项目文件夹→Finish完成导入。<br>
 2.添加项目依赖的jar包：在项目名称点击右键→Build Path→Configure Build Path→在Order and Export选项下勾选JRE System Library→在Libraries选项下点击Add External JARs按钮选择%SuperMapiServer_HOME%/webapps/iserver/WEB-INF/lib/下的所有jar包。
